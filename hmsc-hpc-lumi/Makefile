@@ -1,6 +1,6 @@
 IMAGE_ROOT?=ghcr.io/biodt
 IMAGE=hmsc-hpc
-IMAGE_VERSION=0.1.0
+IMAGE_VERSION=0.1.1
 
 build: Dockerfile
 	docker build \

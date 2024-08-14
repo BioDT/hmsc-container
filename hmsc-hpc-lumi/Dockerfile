@@ -7,7 +7,7 @@ RUN python3 -m pip install \
 
 RUN python3 -m pip install \
         numpy==1.22.4 \
-        git+https://github.com/trossi/rdata.git@test-for-hmsc-v1
+        git+https://github.com/trossi/rdata.git@test-for-hmsc-v2
 
 RUN python3 -m pip install --no-dependencies \
         git+https://github.com/trossi/hmsc-hpc.git@simplify-io
