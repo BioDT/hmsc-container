@@ -33,3 +33,9 @@ mv Rplots.pdf Rplots_HPC.pdf
 ```bash
 sbatch submit.lumi.sh
 ```
+
+## Reticulate demo on LUMI-G
+
+```bash
+sbatch submit_reticulate.lumi.sh
+```
