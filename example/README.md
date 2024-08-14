@@ -28,3 +28,8 @@ docker_run --entrypoint Rscript ghcr.io/biodt/hmsc-full:0.1.0 03_postprocess.R
 mv Rplots.pdf Rplots_HPC.pdf
 ```
 
+## Using singularity and single container on LUMI-G
+
+```bash
+sbatch submit.lumi.sh
+```
